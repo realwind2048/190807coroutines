@@ -13,30 +13,30 @@ import kotlinx.coroutines.flow.Flow
 import kotlin.coroutines.coroutineContext
 import kotlin.random.Random
 
-class OldMainActivity : AppCompatActivity() {
+class FlowMainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        val campaigns = arrayListOf("1", "2", "3", "4", "5", "6", "7", "8", "9", "10")
-//        GlobalScope.launch {
-////            loadAll(campaigns)
-//            withTimeout(5000) {
-//                loadOne(campaigns)
-//            }
-//            withContext(Dispatchers.IO) {
-//
-//            }
-//
-//            Dispatchers.IO {
-//                Log.d("TAG", "Log")
-//            }
-//
-//        }
-        val flow = Flow1()
-//        flow.hotSteam()
-        flow.flowTest1()
+        val campaigns = arrayListOf("1", "2", "3", "4", "5", "6", "7", "8", "9", "10")
+        GlobalScope.launch {
+//            loadAll(campaigns)
+            withTimeout(5000) {
+                loadOne(campaigns)
+            }
+            withContext(Dispatchers.IO) {
+
+            }
+
+            Dispatchers.IO {
+                Log.d("TAG", "Log")
+            }
+
+        }
+//        val flow = Flow1()
+////        flow.hotSteam()
+//        flow.flowTest1()
 
     }
 

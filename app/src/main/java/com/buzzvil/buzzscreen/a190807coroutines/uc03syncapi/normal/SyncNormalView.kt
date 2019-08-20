@@ -1,4 +1,4 @@
-package com.buzzvil.buzzscreen.a190807coroutines.uc04syncapi.normal
+package com.buzzvil.buzzscreen.a190807coroutines.uc03syncapi.normal
 
 import android.util.Log
 

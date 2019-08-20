@@ -1,6 +1,6 @@
-package com.buzzvil.buzzscreen.a190807coroutines.uc04syncapi.normal
+package com.buzzvil.buzzscreen.a190807coroutines.uc03syncapi.normal
 
-import com.buzzvil.buzzscreen.a190807coroutines.uc04syncapi.SyncDummyClass
+import com.buzzvil.buzzscreen.a190807coroutines.uc03syncapi.SyncDummyClass
 
 class SyncNormalUseCase {
     fun excute(callback: SyncDummyCallback) {

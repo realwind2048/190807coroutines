@@ -1,7 +1,7 @@
-package com.buzzvil.buzzscreen.a190807coroutines.uc03asyncapi.coroutines
+package com.buzzvil.buzzscreen.a190807coroutines.uc04asyncapi.coroutines
 
-import com.buzzvil.buzzscreen.a190807coroutines.uc03asyncapi.AsyncDummyCallback
-import com.buzzvil.buzzscreen.a190807coroutines.uc03asyncapi.AsyncDummyClass
+import com.buzzvil.buzzscreen.a190807coroutines.uc04asyncapi.AsyncDummyCallback
+import com.buzzvil.buzzscreen.a190807coroutines.uc04asyncapi.AsyncDummyClass
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlin.coroutines.resume

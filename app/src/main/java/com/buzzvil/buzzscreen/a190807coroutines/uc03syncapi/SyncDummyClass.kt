@@ -1,4 +1,4 @@
-package com.buzzvil.buzzscreen.a190807coroutines.uc04syncapi
+package com.buzzvil.buzzscreen.a190807coroutines.uc03syncapi
 
 object SyncDummyClass {
     fun veryDifficultBlockingCallWithResult(): Int {

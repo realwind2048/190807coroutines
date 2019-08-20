@@ -1,6 +1,6 @@
-package com.buzzvil.buzzscreen.a190807coroutines.uc04syncapi.coroutines
+package com.buzzvil.buzzscreen.a190807coroutines.uc03syncapi.coroutines
 
-import com.buzzvil.buzzscreen.a190807coroutines.uc04syncapi.SyncDummyClass
+import com.buzzvil.buzzscreen.a190807coroutines.uc03syncapi.SyncDummyClass
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

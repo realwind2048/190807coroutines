@@ -19,11 +19,13 @@ class RetrofitCoroutinesTest {
         service = retrofit.create(GitHubService::class.java)
     }
 
-    suspend fun getList(): List<Repo> {
+    suspend fun getList1(): List<Repo> {
         return withContext(Dispatchers.IO) {
             service.listRepos("buzzvil")
         }
     }
+
+    suspend fun getList2(): List<Repo> = service.listRepos("buzzvil")
 }
 
 interface GitHubService {

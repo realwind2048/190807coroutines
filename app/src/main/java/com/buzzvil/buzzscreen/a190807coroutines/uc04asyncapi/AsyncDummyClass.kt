@@ -1,4 +1,4 @@
-package com.buzzvil.buzzscreen.a190807coroutines.uc03asyncapi
+package com.buzzvil.buzzscreen.a190807coroutines.uc04asyncapi
 
 object AsyncDummyClass {
     fun veryDifficultResult(callback: AsyncDummyCallback) {

@@ -13,6 +13,7 @@
             android:theme="@style/AppTheme">
         <activity android:name=".uc01handler.normal.HandlerNormalActivity"/>
         <activity android:name=".uc01handler.coroutines.HandlerCoroutinesActivity"/>
+        <activity android:name=".old.FlowMainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

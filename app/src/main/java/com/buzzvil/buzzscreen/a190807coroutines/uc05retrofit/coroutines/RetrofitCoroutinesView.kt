@@ -15,8 +15,8 @@ class RetrofitCoroutinesView {
         val retrofitCoroutinesTest = RetrofitCoroutinesTest()
         CoroutineScope(Dispatchers.Main).launch {
             try {
-                retrofitCoroutinesTest.getList().forEach {
-                    Log.d("TRACK_DEBUG", "${it.name}")
+                retrofitCoroutinesTest.getList2().forEach {
+                    Log.d("TRACK_DEBUG", "${it.name} ")
                 }
 //                uiUpdate()
             } catch (e: Exception) {

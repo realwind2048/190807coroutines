@@ -1,15 +1,13 @@
 package com.buzzvil.buzzscreen.a190807coroutines
 
-import com.buzzvil.buzzscreen.a190807coroutines.uc04syncapi.coroutines.SyncCoroutinesUseCase
+import com.buzzvil.buzzscreen.a190807coroutines.uc03syncapi.coroutines.SyncCoroutinesUseCase
 import com.google.common.truth.Truth
 import kotlinx.coroutines.*
 import kotlinx.coroutines.test.resetMain
-import kotlinx.coroutines.test.runBlockingTest
 import kotlinx.coroutines.test.setMain
 import org.junit.After
 import org.junit.Test
 
-import org.junit.Assert.*
 import org.junit.Before
 
 /**

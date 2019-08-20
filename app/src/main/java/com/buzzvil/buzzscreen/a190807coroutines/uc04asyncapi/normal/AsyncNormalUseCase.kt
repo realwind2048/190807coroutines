@@ -1,7 +1,7 @@
-package com.buzzvil.buzzscreen.a190807coroutines.uc03asyncapi.normal
+package com.buzzvil.buzzscreen.a190807coroutines.uc04asyncapi.normal
 
-import com.buzzvil.buzzscreen.a190807coroutines.uc03asyncapi.AsyncDummyCallback
-import com.buzzvil.buzzscreen.a190807coroutines.uc03asyncapi.AsyncDummyClass
+import com.buzzvil.buzzscreen.a190807coroutines.uc04asyncapi.AsyncDummyCallback
+import com.buzzvil.buzzscreen.a190807coroutines.uc04asyncapi.AsyncDummyClass
 
 class AsyncNormalUseCase {
     fun excute(view: AsyncNormalViewInterface) {
